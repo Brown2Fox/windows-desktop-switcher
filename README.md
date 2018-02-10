@@ -5,7 +5,7 @@ An AutoHotKey script for Windows that lets a user manage (switch, create, delete
 If you're looking for something more robust & need more than this script, check out:
 https://github.com/sdias/win-10-virtual-desktop-enhancer
 
-# NOTE 
+## NOTE 
 Note that this overrides CapsLock for the key combinations below. CapsLock will be disabled.
 
 ## Installation
