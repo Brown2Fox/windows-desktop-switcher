@@ -1,30 +1,25 @@
+# Windows Desktop Switcher
+An AutoHotKey script for Windows that lets a user manage (switch, create, delete, review) a virtual desktops with one hand. This script creates 'better' hotkeys for switching virtual desktops in windows 10.
+
 ### Quick note
-I wrote this as a quick evening script to solve my problem. If you're looking for something more robust & need more than this script can give you, check out:
+If you're looking for something more robust & need more than this script, check out:
 https://github.com/sdias/win-10-virtual-desktop-enhancer
 
-# windows-desktop-switcher
-An AutoHotKey script for Windows that lets a user change virtual desktops by pressing CapsLock + &lt;num>. It also allows for creation/deletion of desktops by hotkey (see below).
-
-## Overview
-This script creates 'better' hotkeys for switching virtual desktops in windows 10. I built this to better mirror
-the mapping I use on linux (with dwm), and it's always annoyed me that Windows does not have better
-hotkey support for this feature (for instance, there's no way to go directly to a desktop by number).
-
-Note that this only overrides CapsLock for the key combinations below. Otherwise, CapsLock will function normally.
+# NOTE 
+Note that this overrides CapsLock for the key combinations below. CapsLock will be disabled.
 
 ## Installation
-Install AutoHotKey, then run the desktop_switcher.ahk script (open with AutoHotKey if prompted). I would recommend putting it in your startup folder and it'll be invoked on login.
+Install AutoHotKey, then run the desktop_switcher.ahk script (open with AutoHotKey if prompted). I would recommend putting it in your startup folder and it'll be invoked on login. 
+
+If you don't want install AutoHotKey, you can run executable [file](https://github.com/Brown2Fox/windows-desktop-switcher/releases) directly. You can also put it in startup folder for automatically starting.
 
 ## Hotkeys
-        <CapsLock> + <Num>      - Switches to virtual desktop "num".
+        <CapsLock> + <Num>      - Switches to virtual desktop "num"
         <CapsLock> + C          - Create a new virtual desktop
         <CapsLock> + D          - Delete the current virtual desktop
         <CapsLock> + A or P     - Switch to virtual desktop on left
         <CapsLock> + S or N     - Switch to virtual desktop on right
+        <CapsLock> + <Tab>      - Shows up desktops overview
 
 To change the key mappings, modify the bottom of the script and reload. Be sure to read about the [symbols AutoHotKey uses](https://autohotkey.com/docs/Hotkeys.htm) for key mapping.
 
-## Other
-To see debug messages, download [SysInternals DebugView](https://technet.microsoft.com/en-us/sysinternals/debugview).
-
-Disclaimer: I've only tried this on my machine, and on Windows 10. Use at your own risk.
