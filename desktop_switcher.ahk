@@ -147,6 +147,8 @@ CapsLock & n::switchDesktopByNumber(CurrentDesktop + 1)
 CapsLock & p::switchDesktopByNumber(CurrentDesktop - 1)
 CapsLock & s::switchDesktopByNumber(CurrentDesktop + 1)
 CapsLock & a::switchDesktopByNumber(CurrentDesktop - 1)
+CapsLock & WheelDown::switchDesktopByNumber(CurrentDesktop + 1)
+CapsLock & WheelUp::switchDesktopByNumber(CurrentDesktop - 1)
 CapsLock & c::createVirtualDesktop()
 CapsLock & d::deleteVirtualDesktop()
 
