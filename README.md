@@ -19,6 +19,7 @@ If you don't want install AutoHotKey, you can run executable [file](https://gith
         <CapsLock> + D          - Delete the current virtual desktop
         <CapsLock> + A or P     - Switch to virtual desktop on left
         <CapsLock> + S or N     - Switch to virtual desktop on right
+        <CapsLock> + <MouseWheelDown> or <MouseWheelUp> - Scroll desktops
         <CapsLock> + <Tab>      - Shows up desktops overview
 
 To change the key mappings, modify the bottom of the script and reload. Be sure to read about the [symbols AutoHotKey uses](https://autohotkey.com/docs/Hotkeys.htm) for key mapping.
