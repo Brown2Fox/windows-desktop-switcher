@@ -11,7 +11,7 @@ Note that this overrides CapsLock for the key combinations below. CapsLock will 
 ## Installation
 Install AutoHotKey, then run the desktop_switcher.ahk script (open with AutoHotKey if prompted). I would recommend putting it in your startup folder and it'll be invoked on login. 
 
-If you don't want install AutoHotKey, you can run executable [file](https://github.com/Brown2Fox/windows-desktop-switcher/releases) directly. You can also put it in startup folder for automatically starting.
+If you don't want install AutoHotKey, you can run executable [file](https://github.com/Brown2Fox/windows-desktop-switcher/releases) directly. You can also put it in startup folder for automatic launch.
 
 ## Hotkeys
         <CapsLock> + <Num>      - Switches to virtual desktop "num"
